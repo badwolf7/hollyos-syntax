@@ -9,7 +9,7 @@
   ],
   "_shrinkwrap": null,
   "bugs": {
-    "url": ""
+    "url": "https://github.com/badwolf7/hollyos-syntax/issues"
   },
   "dependencies": {},
   "description": "hollyos syntax theme for atom",
@@ -17,11 +17,18 @@
   "engines": {
     "atom": ">0.50.0"
   },
-  "homepage": "",
+  "homepage": "https://github.com/badwolf7/hollyos-syntax",
   "license": "MIT",
   "name": "hollyos-syntax",
   "optionalDependencies": {},
-  "readme": "",
+  "readme": "# `hollyos-syntax` theme for Atom
+
+  ## Screen Shots
+
+  **js**
+
+  ![screenshot](./images/screen-shot-js.png)
+  ",
   "readmeFilename": "README.md",
   "repository": {
     "type": "git",
