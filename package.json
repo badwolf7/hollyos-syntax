@@ -18,21 +18,19 @@
     "atom": ">0.50.0"
   },
   "homepage": "https://github.com/badwolf7/hollyos-syntax",
+  "keywords": [
+    "syntax",
+    "theme",
+    "atom"
+  ],
   "license": "MIT",
   "name": "hollyos-syntax",
   "optionalDependencies": {},
-  "readme": "# `hollyos-syntax` theme for Atom
-
-  ## Screen Shots
-
-  **js**
-
-  ![screenshot](./images/screen-shot-js.png)
-  ",
+  "readme": "# `hollyos-syntax` theme for Atom\n## Screen Shots\n**js**\n![screenshot](./images/screen-shot-js.png)",
   "readmeFilename": "README.md",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/"
+    "url": "git+https://github.com/badwolf7/hollyos-syntax"
   },
   "theme": "syntax",
   "version": "0.1.0"
