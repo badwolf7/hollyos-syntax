@@ -1,0 +1,32 @@
+{
+  "_id": "hollyos-syntax@0.1.0",
+  "_inCache": true,
+  "_installable": true,
+  "_location": "/hollyos-syntax",
+  "_phantomChildren": {},
+  "_requiredBy": [
+    "#USER"
+  ],
+  "_shrinkwrap": null,
+  "bugs": {
+    "url": ""
+  },
+  "dependencies": {},
+  "description": "hollyos syntax theme for atom",
+  "devDependencies": {},
+  "engines": {
+    "atom": ">0.50.0"
+  },
+  "homepage": "",
+  "license": "MIT",
+  "name": "hollyos-syntax",
+  "optionalDependencies": {},
+  "readme": "",
+  "readmeFilename": "README.md",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/"
+  },
+  "theme": "syntax",
+  "version": "0.1.0"
+}

@@ -1,0 +1,97 @@
+/**
+ * This defines all syntax variables that syntax themes must implement when they
+ * include a syntax-variables.less file.
+ *
+ * @author Holly Springsteen
+ */
+
+@import "colors";
+
+// General Color Names
+@very-dark-gray: @metal-90;
+@dark-gray: @metal-60;
+@gray: @metal-50;
+@light-gray: @metal-25;
+@very-light-gray: @metal-15;
+@white: @metal-5;
+
+@light-red: @red-15;
+@red: @red-30;
+@dark-red: @red-55;
+
+@light-orange: @orange-10;
+@bright-orange: @orange-45;
+@orange: @orange-25;
+@dark-orange: @orange-65;
+
+@light-yellow: @yellow-15;
+@yellow: @yellow-25;
+@dark-yellow: @yellow-65;
+
+@light-olive: @olive-20;
+@olive: @olive-40;
+@dark-olive: @olive-70;
+
+@light-yellow-green: @yellow-green-20;
+@yellow-green: @yellow-green-35;
+@dark-yellow-green: @yellow-green-70;
+
+@light-green: @green-20;
+@green: @green-35;
+@dark-green: @green-70;
+
+@light-aqua: @aqua-20;
+@aqua: @aqua-35;
+@dark-aqua: @aqua-70;
+
+@light-teal: @teal-15;
+@teal: @teal-30;
+@dark-teal: @teal-65;
+
+@light-blue: @blue-15;
+@blue: @blue-30;
+@dark-blue: @blue-65;
+
+@light-denim: @denim-15;
+@denim: @denim-30;
+@dark-denim: @denim-65;
+
+@light-purple: @purple-15;
+@purple: @purple-25;
+@dark-purple: @purple-60;
+
+@light-magenta: @magenta-15;
+@magenta: @magenta-30;
+@dark-magenta: @magenta-65;
+
+@light-pink: @pink-10;
+@pink: @pink-25;
+@dark-pink: @pink-60;
+
+// General colors
+@syntax-text-color: @gray;
+@syntax-cursor-color: @aqua-35;
+@syntax-selection-color: @dark-gray;
+@syntax-background-color: @very-dark-gray;
+@syntax-comment-color: @dark-gray;
+
+// Guide colors
+@syntax-wrap-guide-color: @dark-gray;
+@syntax-indent-guide-color: @metal-75;
+@syntax-invisible-character-color: @gray;
+
+// For find and replace markers
+@syntax-result-marker-color: @light-gray;
+@syntax-result-marker-color-selected: @very-light-gray;
+
+// Gutter colors
+@syntax-gutter-text-color: @light-gray;
+@syntax-gutter-text-color-selected: @very-light-gray;
+@syntax-gutter-background-color: @metal-80;
+@syntax-gutter-background-color-selected: @metal-70;
+
+// For git diff info. i.e. in the gutter
+@syntax-color-renamed: @blue;
+@syntax-color-added: @green;
+@syntax-color-modified: @orange;
+@syntax-color-removed: @red;
